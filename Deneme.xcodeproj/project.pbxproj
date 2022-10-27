@@ -14,6 +14,15 @@
 		12316ADB28F1B9BB00592000 /* Deneme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12316AD928F1B9BB00592000 /* Deneme.xcdatamodeld */; };
 		12316ADD28F1B9BD00592000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12316ADC28F1B9BD00592000 /* Assets.xcassets */; };
 		12316AE028F1B9BD00592000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12316ADE28F1B9BD00592000 /* LaunchScreen.storyboard */; };
+		12316AE828F1BA4000592000 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12316AE728F1BA4000592000 /* GoogleService-Info.plist */; };
+		125ACAC228F31949009D6E24 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125ACAC128F31949009D6E24 /* FeedViewController.swift */; };
+		125ACAC428F3196B009D6E24 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125ACAC328F3196B009D6E24 /* UploadViewController.swift */; };
+		125ACAC628F31988009D6E24 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125ACAC528F31988009D6E24 /* SettingsViewController.swift */; };
+		125ACAC828F58B34009D6E24 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125ACAC728F58B34009D6E24 /* FeedCell.swift */; };
+		125ACACC28F59A92009D6E24 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125ACACB28F59A92009D6E24 /* RegisterViewController.swift */; };
+		125ACACE28F59DC8009D6E24 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125ACACD28F59DC8009D6E24 /* File.swift */; };
+		125ACAD028F62748009D6E24 /* AddImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125ACACF28F62748009D6E24 /* AddImageViewController.swift */; };
+		D4A35B2023BECE35B36291D3 /* Pods_Deneme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1552FFB7376E0EE66F3CD69F /* Pods_Deneme.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,17 @@
 		12316ADC28F1B9BD00592000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12316ADF28F1B9BD00592000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12316AE128F1B9BD00592000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12316AE728F1BA4000592000 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		125ACAC128F31949009D6E24 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		125ACAC328F3196B009D6E24 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		125ACAC528F31988009D6E24 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		125ACAC728F58B34009D6E24 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		125ACACB28F59A92009D6E24 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		125ACACD28F59DC8009D6E24 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		125ACACF28F62748009D6E24 /* AddImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageViewController.swift; sourceTree = "<group>"; };
+		1552FFB7376E0EE66F3CD69F /* Pods_Deneme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deneme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB426887913A099208EA538 /* Pods-Deneme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deneme.release.xcconfig"; path = "Target Support Files/Pods-Deneme/Pods-Deneme.release.xcconfig"; sourceTree = "<group>"; };
+		6E81C677F4858BED65D54F5A /* Pods-Deneme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deneme.debug.xcconfig"; path = "Target Support Files/Pods-Deneme/Pods-Deneme.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A35B2023BECE35B36291D3 /* Pods_Deneme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				12316ACF28F1B9BB00592000 /* Deneme */,
 				12316ACE28F1B9BB00592000 /* Products */,
+				31AF48428A2663B3B9504D1A /* Pods */,
+				F788BB4408BE901C548D128A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +81,7 @@
 		12316ACF28F1B9BB00592000 /* Deneme */ = {
 			isa = PBXGroup;
 			children = (
+				12316AE728F1BA4000592000 /* GoogleService-Info.plist */,
 				12316AD028F1B9BB00592000 /* AppDelegate.swift */,
 				12316AD228F1B9BB00592000 /* SceneDelegate.swift */,
 				12316AD428F1B9BB00592000 /* ViewController.swift */,
@@ -66,8 +90,32 @@
 				12316ADE28F1B9BD00592000 /* LaunchScreen.storyboard */,
 				12316AE128F1B9BD00592000 /* Info.plist */,
 				12316AD928F1B9BB00592000 /* Deneme.xcdatamodeld */,
+				125ACAC128F31949009D6E24 /* FeedViewController.swift */,
+				125ACAC328F3196B009D6E24 /* UploadViewController.swift */,
+				125ACAC528F31988009D6E24 /* SettingsViewController.swift */,
+				125ACAC728F58B34009D6E24 /* FeedCell.swift */,
+				125ACACB28F59A92009D6E24 /* RegisterViewController.swift */,
+				125ACACD28F59DC8009D6E24 /* File.swift */,
+				125ACACF28F62748009D6E24 /* AddImageViewController.swift */,
 			);
 			path = Deneme;
+			sourceTree = "<group>";
+		};
+		31AF48428A2663B3B9504D1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E81C677F4858BED65D54F5A /* Pods-Deneme.debug.xcconfig */,
+				2DB426887913A099208EA538 /* Pods-Deneme.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F788BB4408BE901C548D128A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1552FFB7376E0EE66F3CD69F /* Pods_Deneme.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12316AE428F1B9BD00592000 /* Build configuration list for PBXNativeTarget "Deneme" */;
 			buildPhases = (
+				587C7211CF485C724161FF5F /* [CP] Check Pods Manifest.lock */,
 				12316AC928F1B9BB00592000 /* Sources */,
 				12316ACA28F1B9BB00592000 /* Frameworks */,
 				12316ACB28F1B9BB00592000 /* Resources */,
+				A0C058651E94C21844004977 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12316AE028F1B9BD00592000 /* LaunchScreen.storyboard in Resources */,
+				12316AE828F1BA4000592000 /* GoogleService-Info.plist in Resources */,
 				12316ADD28F1B9BD00592000 /* Assets.xcassets in Resources */,
 				12316AD828F1B9BB00592000 /* Main.storyboard in Resources */,
 			);
@@ -136,13 +187,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		587C7211CF485C724161FF5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deneme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C058651E94C21844004977 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deneme/Pods-Deneme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deneme/Pods-Deneme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deneme/Pods-Deneme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12316AC928F1B9BB00592000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125ACACC28F59A92009D6E24 /* RegisterViewController.swift in Sources */,
 				12316AD528F1B9BB00592000 /* ViewController.swift in Sources */,
+				125ACAC428F3196B009D6E24 /* UploadViewController.swift in Sources */,
+				125ACAC628F31988009D6E24 /* SettingsViewController.swift in Sources */,
 				12316ADB28F1B9BB00592000 /* Deneme.xcdatamodeld in Sources */,
+				125ACACE28F59DC8009D6E24 /* File.swift in Sources */,
+				125ACAC228F31949009D6E24 /* FeedViewController.swift in Sources */,
+				125ACAD028F62748009D6E24 /* AddImageViewController.swift in Sources */,
+				125ACAC828F58B34009D6E24 /* FeedCell.swift in Sources */,
 				12316AD128F1B9BB00592000 /* AppDelegate.swift in Sources */,
 				12316AD328F1B9BB00592000 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +386,7 @@
 		};
 		12316AE528F1B9BD00592000 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E81C677F4858BED65D54F5A /* Pods-Deneme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +414,7 @@
 		};
 		12316AE628F1B9BD00592000 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB426887913A099208EA538 /* Pods-Deneme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

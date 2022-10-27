@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>886792032850-sjf6tgadus61c5jd41nb4a3gi41nhhs0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.886792032850-sjf6tgadus61c5jd41nb4a3gi41nhhs0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwK0f-g2AeM4rx-inS2T-FWAjBEOdZX5A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>886792032850</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Deneme</string>
+	<key>PROJECT_ID</key>
+	<string>deneme-b7f8c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>deneme-b7f8c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:886792032850:ios:11acf48943ce26ba02458b</string>
+</dict>
+</plist>
